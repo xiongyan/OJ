@@ -1,0 +1,8 @@
+
+# ignore *.suo file
+*.suo
+
+# ignore Debug
+Debug/
+
+

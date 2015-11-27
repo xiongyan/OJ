@@ -1,6 +1,0 @@
-#ifndef __OJ_H__
-#define __OJ_H__
-
-unsigned int CalcTaxiCost(TAXI_TYPE enumTaxiType, TIME_AREA_TYPE enumTimeArea,float fDistanceKm);
-
-#endif
