@@ -2,6 +2,9 @@
 # ignore *.suo file
 *.suo
 
+# ignore *.sln file
+*.sln
+
 # ignore Debug
 project/
 
