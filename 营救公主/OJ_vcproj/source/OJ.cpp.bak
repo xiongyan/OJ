@@ -1,0 +1,33 @@
+
+#include "OJ.h"
+
+
+/*
+Description  
+      某市出租车采用如下方式计价：
+	  市区车辆：
+	       日间起步价14元（3公里以内）。超3公里后10公里以内单价2.40元/公里。超10公里单价按3.60元/公里。 计费结果零头达到0.5元按1元计，不足0.5元不计。
+		   夜间起步价18元（3公里以内）。超3公里后10公里以内单价3.10元/公里。超10公里单价按4.70元/公里。 计费结果零头达到0.5元按1元计，不足0.5元不计。
+      区域车辆：
+	       起步价12元（3公里以内）。超3公里后单价2.40元。超10公里不再加收。计费结果零头超过0.5元按1元计，不足0.5元不计。
+      请实现根据不同的车辆、时间段、公里数计价的功能。
+Prototype
+      unsigned int CalcTaxiCost(TAXI_TYPE enumTaxiType, TIME_AREA_TYPE enumTimeArea,float fDistanceKm)
+Input Param 
+      TAXI_TYPE enumTaxiType:           车辆类型。（见OJ.h定义） TAXI_TYPE_CENTRE--市区出租车，TAXI_TYPE_URBAN--郊区出租车。
+	  TIME_AREA_TYPE enumTimeArea:      时间段。（见OJ.h定义）   TIME_AREA_DAYTIME--日间，TIME_AREA_MIDNIGHT--夜间。
+      float fDistanceKm：               公里数。
+Output Param 
+      无
+Return Value
+	  unsigned int
+	     整数返回的费用，单位：元。
+
+*/
+
+unsigned int CalcTaxiCost(TAXI_TYPE enumTaxiType, TIME_AREA_TYPE enumTimeArea,float fDistanceKm)
+{ 
+    /*在这里实现功能*/
+    return 0;
+}
+
